@@ -6,7 +6,8 @@
 }
 
 body {
-background-color: var(--color-yellow)
+background-color: var(--color-yellow);
+font-family: Figtree;
 }
 
 .container {
@@ -17,4 +18,24 @@ background-color: var(--color-yellow)
     padding: 24px;
     background-color: var(--color-white);
     box-shadow: 8px 8px 0px 0px var(--color-gray-950);
+}
+
+.badge {
+    width: 82px;
+    height: 29px;
+    margin-top: 2rem;
+    border-radius: 4px;
+    background-color: var(--color-yellow) !important;
+    color: var(--color-gray-950);
+}
+
+.bg-secondary {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 150%;
+}
+
+h6 {
+    margin-bottom: 8rem;
 }
