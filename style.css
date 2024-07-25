@@ -37,10 +37,10 @@ font-family: Figtree;
 }
 
 .texto {
-    margin-bottom: 6.8rem;
+    margin-bottom: 3rem;
 }
 
-.texto h6 {
+.texto h5 {
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
@@ -53,4 +53,35 @@ font-family: Figtree;
     font-style: normal;
     line-height: 150%;
     align-self: stretch;
+}
+
+.texto h6 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    align-self: stretch;
+    color: var(--color-gray-500);
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 16px;
+    gap: 12px;
+}
+
+.profile img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile h3 {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: 5px;
+    color: var(--color-gray-950);
 }
