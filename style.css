@@ -6,7 +6,8 @@
 }
 
 body {
-background-color: var(--color-yellow)
+background-color: var(--color-yellow);
+font-family: Figtree;
 }
 
 .container {
@@ -17,4 +18,70 @@ background-color: var(--color-yellow)
     padding: 24px;
     background-color: var(--color-white);
     box-shadow: 8px 8px 0px 0px var(--color-gray-950);
+}
+
+.badge {
+    width: 82px;
+    height: 29px;
+    margin-top: 1.8rem;
+    border-radius: 4px;
+    background-color: var(--color-yellow) !important;
+    color: var(--color-gray-950);
+}
+
+.bg-secondary {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.texto {
+    margin-bottom: 3rem;
+}
+
+.texto h5 {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.texto h2 {
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 150%;
+    align-self: stretch;
+}
+
+.texto h6 {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    align-self: stretch;
+    color: var(--color-gray-500);
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 16px;
+    gap: 12px;
+}
+
+.profile img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile h3 {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 150%;
+    padding-top: 5px;
+    color: var(--color-gray-950);
 }
