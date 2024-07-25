@@ -1,0 +1,20 @@
+:root {
+    --color-gray-950: #111111;
+    --color-white: #FFFFFF;
+    --color-yellow: #F4D04E;
+    --color-gray-500: #6B6B6B;
+}
+
+body {
+background-color: var(--color-yellow)
+}
+
+.container {
+    display: flex;
+    width: 24rem;
+    height: 32.625rem;
+    border-radius: 20px;
+    padding: 24px;
+    background-color: var(--color-white);
+    box-shadow: 8px 8px 0px 0px var(--color-gray-950);
+}
